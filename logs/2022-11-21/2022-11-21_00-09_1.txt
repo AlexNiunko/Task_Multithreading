@@ -1,0 +1,9 @@
+2022-11-21 00:05:54 [pool-2-thread-4] INFO  com.epam.multithreading.entity.Ship [[run]] - The ship number 5 is create
+2022-11-21 00:09:33 [pool-2-thread-4] INFO  com.epam.multithreading.entity.Port [[<init>]] - Port is create
+2022-11-21 00:09:33 [pool-2-thread-1] INFO  com.epam.multithreading.entity.Ship [[run]] - The ship number 1 is create
+2022-11-21 00:09:33 [pool-2-thread-3] INFO  com.epam.multithreading.entity.Ship [[run]] - The ship number 3 is create
+2022-11-21 00:09:33 [pool-2-thread-2] INFO  com.epam.multithreading.entity.Ship [[run]] - The ship number 2 is create
+2022-11-21 00:09:33 [pool-2-thread-1] INFO  com.epam.multithreading.entity.Port [[takePier]] - Ship number 1 occupied pier number 0
+2022-11-21 00:09:33 [pool-2-thread-4] INFO  com.epam.multithreading.entity.Ship [[run]] - The ship number 4 is create
+2022-11-21 00:09:33 [pool-2-thread-1] INFO  com.epam.multithreading.entity.Port [[takePier]] - 1 MOORED
+2022-11-21 00:09:33 [pool-2-thread-2] INFO  com.epam.multithreading.entity.Port [[takePier]] - Ship number 2 occupied pier number 1

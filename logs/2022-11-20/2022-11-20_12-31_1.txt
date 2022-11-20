@@ -1,0 +1,9 @@
+2022-11-20 12:23:17 [main] INFO  com.epam.multithreading.entity.Pier [[takePier]] - Ship 1 occupied pier number 1
+2022-11-20 12:23:17 [main] INFO  com.epam.multithreading.entity.Pier [[releasePier]] - Ship 1 released pier number 1
+2022-11-20 12:23:34 [main] INFO  com.epam.multithreading.entity.Pier [[takePier]] - Ship 1 occupied pier number 1
+2022-11-20 12:29:17 [Thread-0] INFO  com.epam.multithreading.entity.Pier [[takePier]] - Ship 1 occupied pier number 0
+2022-11-20 12:29:17 [Thread-2] INFO  com.epam.multithreading.entity.Pier [[takePier]] - Ship 2 occupied pier number 0
+2022-11-20 12:29:17 [Thread-1] INFO  com.epam.multithreading.entity.Pier [[takePier]] - Ship 2 occupied pier number 0
+2022-11-20 12:29:17 [Thread-2] INFO  com.epam.multithreading.entity.Pier [[releasePier]] - Ship 2 released pier number 0
+2022-11-20 12:29:17 [Thread-0] INFO  com.epam.multithreading.entity.Pier [[releasePier]] - Ship 1 released pier number 0
+2022-11-20 12:29:17 [Thread-1] INFO  com.epam.multithreading.entity.Pier [[releasePier]] - Ship 2 released pier number 0

@@ -1,0 +1,9 @@
+2022-11-20 20:14:08 [pool-2-thread-1] ERROR com.epam.multithreading.entity.Port [[getPier]] - There is not a free pier,please wait
+2022-11-20 20:15:34 [pool-2-thread-1] INFO  com.epam.multithreading.entity.Port [[<init>]] - Port is create
+2022-11-20 20:15:34 [pool-2-thread-2] INFO  com.epam.multithreading.entity.Pier [[takePier]] - The ship 2 took pier number 0 
+2022-11-20 20:15:34 [pool-2-thread-2] INFO  com.epam.multithreading.entity.Pier [[takePier]] - The ship 2 took pier number 1 
+2022-11-20 20:15:34 [pool-2-thread-3] ERROR com.epam.multithreading.entity.Port [[getPier]] - There is not a free pier,please wait
+2022-11-20 20:15:34 [pool-2-thread-1] ERROR com.epam.multithreading.entity.Port [[getPier]] - There is not a free pier,please wait
+2022-11-20 20:16:27 [pool-2-thread-1] INFO  com.epam.multithreading.entity.Port [[<init>]] - Port is create
+2022-11-20 20:16:27 [pool-2-thread-3] ERROR com.epam.multithreading.entity.Port [[getPier]] - There is not a free pier,please wait
+2022-11-20 20:16:27 [pool-2-thread-2] ERROR com.epam.multithreading.entity.Port [[getPier]] - There is not a free pier,please wait

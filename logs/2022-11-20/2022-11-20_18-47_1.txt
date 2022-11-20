@@ -1,0 +1,9 @@
+2022-11-20 18:40:49 [Thread-0] INFO  com.epam.multithreading.entity.Pier [[takePier]] - The ship 1 took pier number 1 
+2022-11-20 18:40:49 [Thread-1] INFO  com.epam.multithreading.entity.Pier [[takePier]] - The ship 2 took pier number 0 
+2022-11-20 18:46:22 [Thread-1] INFO  com.epam.multithreading.entity.Port [[<init>]] - Port is create
+2022-11-20 18:46:22 [Thread-2] ERROR com.epam.multithreading.entity.Port [[issuePier]] - There is no free pier, please wait
+2022-11-20 18:46:22 [Thread-1] INFO  com.epam.multithreading.entity.Pier [[takePier]] - The ship 2 took pier number 0 
+2022-11-20 18:46:22 [Thread-0] ERROR com.epam.multithreading.entity.Port [[issuePier]] - There is no free pier, please wait
+2022-11-20 18:47:23 [Thread-0] INFO  com.epam.multithreading.entity.Port [[<init>]] - Port is create
+2022-11-20 18:47:23 [Thread-1] ERROR com.epam.multithreading.entity.Port [[issuePier]] - There is no free pier, please wait
+2022-11-20 18:47:23 [Thread-2] ERROR com.epam.multithreading.entity.Port [[issuePier]] - There is no free pier, please wait

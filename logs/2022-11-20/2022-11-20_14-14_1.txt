@@ -1,0 +1,10 @@
+2022-11-20 12:43:06 [Thread-0] INFO  com.epam.multithreading.entity.Ship [[run]] - Ship 1 is create
+2022-11-20 13:01:57 [Thread-1] INFO  com.epam.multithreading.entity.Port [[<init>]] - Port is create
+2022-11-20 13:01:57 [Thread-1] INFO  com.epam.multithreading.entity.Ship [[run]] - Ship 2 is create
+2022-11-20 13:01:57 [Thread-1] INFO  com.epam.multithreading.entity.Pier [[takePier]] - Ship 2 occupied pier number 0
+2022-11-20 13:01:57 [Thread-2] INFO  com.epam.multithreading.entity.Ship [[run]] - Ship 3 is create
+2022-11-20 13:01:57 [Thread-0] INFO  com.epam.multithreading.entity.Ship [[run]] - Ship 1 is create
+2022-11-20 13:01:57 [Thread-2] INFO  com.epam.multithreading.entity.Pier [[takePier]] - Ship 3 occupied pier number 0
+2022-11-20 13:01:57 [Thread-0] INFO  com.epam.multithreading.entity.Pier [[takePier]] - Ship 1 occupied pier number 0
+2022-11-20 14:14:09 [Thread-2] INFO  com.epam.multithreading.entity.Port [[<init>]] - Port is create
+2022-11-20 14:14:09 [Thread-0] INFO  com.epam.multithreading.entity.Ship [[run]] - Ship 1 is create

@@ -1,0 +1,9 @@
+2022-11-20 21:00:10 [pool-2-thread-2] ERROR com.epam.multithreading.entity.Port [[getPier]] - Pier 1 is busy
+2022-11-20 21:00:10 [pool-2-thread-2] INFO  com.epam.multithreading.entity.Port [[leavePier]] - Pier number 0 is free
+2022-11-20 21:00:10 [pool-2-thread-2] INFO  com.epam.multithreading.entity.Port [[leavePier]] - Pier number 1 is free
+2022-11-20 21:00:10 [pool-2-thread-3] INFO  com.epam.multithreading.entity.Pier [[takePier]] - The ship 3 took pier number 1 
+2022-11-20 21:00:10 [pool-2-thread-1] INFO  com.epam.multithreading.entity.Port [[leavePier]] - Pier number 1 is free
+2022-11-20 21:02:19 [pool-2-thread-3] INFO  com.epam.multithreading.entity.Port [[<init>]] - Port is create
+2022-11-20 21:02:19 [pool-2-thread-3] INFO  com.epam.multithreading.entity.Ship [[run]] - The ship number 3 is create
+2022-11-20 21:02:19 [pool-2-thread-2] INFO  com.epam.multithreading.entity.Ship [[run]] - The ship number 2 is create
+2022-11-20 21:02:19 [pool-2-thread-1] INFO  com.epam.multithreading.entity.Ship [[run]] - The ship number 1 is create

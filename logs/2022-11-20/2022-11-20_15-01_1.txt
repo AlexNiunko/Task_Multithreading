@@ -1,0 +1,10 @@
+2022-11-20 14:37:23 [Thread-0] INFO  com.epam.multithreading.entity.Pier [[releasePier]] - Ship 1 released pier number 1
+2022-11-20 14:37:23 [Thread-2] INFO  com.epam.multithreading.entity.Pier [[takePier]] - Ship 3 occupied pier number 1
+2022-11-20 14:37:23 [Thread-1] INFO  com.epam.multithreading.entity.Port [[exitPort]] - The pier 0 is not busy
+2022-11-20 14:37:23 [Thread-1] INFO  com.epam.multithreading.entity.Pier [[releasePier]] - Ship 2 released pier number 1
+2022-11-20 14:37:23 [Thread-2] INFO  com.epam.multithreading.entity.Port [[exitPort]] - The pier 0 is not busy
+2022-11-20 14:37:23 [Thread-2] INFO  com.epam.multithreading.entity.Port [[exitPort]] - The pier 1 is not busy
+2022-11-20 15:01:05 [Thread-2] INFO  com.epam.multithreading.entity.Port [[<init>]] - Port is create
+2022-11-20 15:01:05 [Thread-2] INFO  com.epam.multithreading.entity.Ship [[run]] - Ship 3 is create
+2022-11-20 15:01:05 [Thread-0] INFO  com.epam.multithreading.entity.Ship [[run]] - Ship 1 is create
+2022-11-20 15:01:05 [Thread-1] INFO  com.epam.multithreading.entity.Ship [[run]] - Ship 2 is create

@@ -1,0 +1,9 @@
+2022-11-21 00:31:43 [pool-2-thread-3] INFO  com.epam.multithreading.entity.Port [[freePier]] - The ship 3 leave from pier number 0
+2022-11-21 00:31:43 [pool-2-thread-3] INFO  com.epam.multithreading.entity.Port [[freePier]] - The ship 3 leave from pier number 1
+2022-11-21 00:31:43 [pool-2-thread-4] INFO  com.epam.multithreading.entity.Port [[takePier]] - Ship number 4 occupied pier number 1
+2022-11-21 00:31:43 [pool-2-thread-4] INFO  com.epam.multithreading.entity.Port [[takePier]] - 4 MOORED
+2022-11-21 01:15:17 [pool-2-thread-3] INFO  com.epam.multithreading.entity.Port [[<init>]] - Port is create
+2022-11-21 01:15:17 [pool-2-thread-1] INFO  com.epam.multithreading.entity.Ship [[run]] - The ship number 1 is create
+2022-11-21 01:15:17 [pool-2-thread-2] INFO  com.epam.multithreading.entity.Ship [[run]] - The ship number 2 is create
+2022-11-21 01:15:17 [pool-2-thread-3] INFO  com.epam.multithreading.entity.Ship [[run]] - The ship number 3 is create
+2022-11-21 01:15:17 [pool-2-thread-1] INFO  com.epam.multithreading.entity.Port [[getPier]] - Pier number 0 occupied 
