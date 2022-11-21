@@ -5,20 +5,20 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.StringJoiner;
+import java.util.concurrent.TimeUnit;
 
 public class Pier {
     static final Logger logger = LogManager.getLogger();
     private PierStatus status;
-    private PierStatus workload;
     private int number;
     private Ship ship;
 
     public Pier( int number) {
         this.status = PierStatus.FREE;
-        this.workload=PierStatus.EMPTY;
         this.number = number;
     }
-    public void unload(Ship ship){
+    public void unload(Ship ship) throws InterruptedException {
+        TimeUnit.MILLISECONDS.sleep(50);
         logger.log(Level.INFO,"Ship {} is unloaded",ship.getShipId());
         this.setStatus(PierStatus.FREE);
     }
@@ -46,13 +46,4 @@ public class Pier {
         this.ship = ship;
     }
 
-    @Override
-    public String toString() {
-        return new StringJoiner(", ", Pier.class.getSimpleName() + "[", "]")
-                .add("status=" + status)
-                .add("workload=" + workload)
-                .add("number=" + number)
-                .add("ship=" + ship)
-                .toString();
-    }
 }

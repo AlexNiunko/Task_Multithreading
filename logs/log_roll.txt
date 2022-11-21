@@ -1,6 +1,4 @@
-2022-11-21 01:36:08 [pool-2-thread-2] INFO  com.epam.multithreading.entity.Port [[getPier]] - Pier number 1 took ship 2  
-2022-11-21 01:36:08 [pool-2-thread-1] INFO  com.epam.multithreading.entity.Pier [[unload]] - Ship 1 is unloaded
-2022-11-21 01:36:08 [pool-2-thread-3] INFO  com.epam.multithreading.entity.Ship [[run]] - Ship number 3 leave
-2022-11-21 01:36:08 [pool-2-thread-2] INFO  com.epam.multithreading.entity.Pier [[unload]] - Ship 2 is unloaded
-2022-11-21 01:36:08 [pool-2-thread-2] INFO  com.epam.multithreading.entity.Ship [[run]] - Ship number 2 leave
-2022-11-21 01:36:08 [pool-2-thread-1] INFO  com.epam.multithreading.entity.Ship [[run]] - Ship number 1 leave
+2022-11-21 08:17:55 [pool-2-thread-4] INFO  com.epam.multithreading.entity.Pier [[unload]] - Ship 4 is unloaded
+2022-11-21 08:17:55 [pool-2-thread-1] INFO  com.epam.multithreading.entity.Pier [[unload]] - Ship 1 is unloaded
+2022-11-21 08:17:55 [pool-2-thread-4] INFO  com.epam.multithreading.entity.Ship [[run]] - Ship number 4 leave
+2022-11-21 08:17:55 [pool-2-thread-1] INFO  com.epam.multithreading.entity.Ship [[run]] - Ship number 1 leave

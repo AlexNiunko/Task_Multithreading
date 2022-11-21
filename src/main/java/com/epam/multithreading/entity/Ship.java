@@ -20,17 +20,6 @@ public class Ship extends Thread{
         return shipId;
     }
 
-    public void setShipId(int shipId) {
-        this.shipId = shipId;
-    }
-
-    public ShipStatus getStatus() {
-        return status;
-    }
-
-    public void setStatus(ShipStatus status) {
-        this.status = status;
-    }
 
     @Override
     public void run() {
@@ -45,11 +34,4 @@ public class Ship extends Thread{
         }
     }
 
-    @Override
-    public String toString() {
-        return new StringJoiner(", ", Ship.class.getSimpleName() + "[", "]")
-                .add("shipId=" + shipId)
-                .add("status=" + status)
-                .toString();
-    }
 }

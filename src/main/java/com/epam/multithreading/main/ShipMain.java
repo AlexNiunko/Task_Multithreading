@@ -1,3 +1,5 @@
+package com.epam.multithreading.main;
+
 import com.epam.multithreading.entity.Ship;
 
 import java.util.concurrent.ExecutorService;
